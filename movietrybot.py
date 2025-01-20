@@ -60,7 +60,7 @@ async def handle_message(update: Update, context: CallbackContext):
 # Main function to set up the bot
 def main():
     # Replace with your API token
-    TOKEN = "7529277779:AAELpV2jYZfCemCNEb4DLySjjK47r_qHhUg"
+    # TOKEN = "7529277779:AAELpV2jYZfCemCNEb4DLySjjK47r_qHhUg"
 
     # Create the Application
     application = Application.builder().token(TOKEN).build()
